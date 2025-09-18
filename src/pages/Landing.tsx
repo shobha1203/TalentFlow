@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Users, Briefcase, Star, CheckCircle, ArrowRight, Play, MapPin, Clock, DollarSign } from 'lucide-react';
+import { Search, Users, Briefcase, Star, CheckCircle, Clock, DollarSign } from 'lucide-react';
 
 function JobRow({ letter, title, meta, salary }: { letter: string; title: string; meta: string; salary: string }) {
   return (
@@ -306,30 +306,30 @@ const Landing: React.FC = () => {
             <div>
               <h4 className="font-semibold mb-4">For Job Seekers</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Browse Jobs</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Career Advice</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Salary Guide</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Resume Builder</a></li>
+                <li><button className="hover:text-white transition-colors text-left">Browse Jobs</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Career Advice</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Salary Guide</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Resume Builder</button></li>
               </ul>
             </div>
             
             <div>
               <h4 className="font-semibold mb-4">For Employers</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Post Jobs</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Find Candidates</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Enterprise</a></li>
+                <li><button className="hover:text-white transition-colors text-left">Post Jobs</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Find Candidates</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Pricing</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Enterprise</button></li>
               </ul>
             </div>
             
             <div>
               <h4 className="font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
+                <li><button className="hover:text-white transition-colors text-left">About Us</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Contact</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Privacy Policy</button></li>
+                <li><button className="hover:text-white transition-colors text-left">Terms of Service</button></li>
               </ul>
             </div>
           </div>
